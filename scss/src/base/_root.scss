@@ -1,0 +1,60 @@
+:root {
+  --pivot-body-text-color: #{$dark};
+  --pivot-body-bg-color: #{$white};
+
+  --pivot-btn-primary-color: #{$white};
+  --pivot-btn-primary-bg: #{$green};
+  --pivot-btn-primary-bg-hover: #{$green-light};
+
+  --pivot-btn-secondary-color: #{$white};
+  --pivot-btn-secondary-bg: #{$dark};
+
+  --pivot-form-color: #{$dark};
+  --pivot-form-bg: #{$white};
+  --pivot-form-error-color: #{$red};
+  --pivot-form-error-border: #{$red};
+  --pivot-form-border-focus-color: #{$green};
+
+  --pivot-body-font-size: #{$fs-base};
+  --pivot-body-font-weight: #{$fw-normal};
+
+  --pivot-h1-font-size: #{$h-1};
+  --pivot-h2-font-size: #{$h-2};
+  --pivot-h3-font-size: #{$h-3};
+  --pivot-h4-font-size: #{$h-4};
+  --pivot-h5-font-size: #{$h-5};
+  --pivot-h6-font-size: #{$h-6};
+
+  --pivot-h1-font-weight: #{$fw-medium};
+  --pivot-h2-font-weight: #{$fw-medium};
+  --pivot-h3-font-weight: #{$fw-medium};
+  --pivot-h4-font-weight: #{$fw-normal};
+  --pivot-h5-font-weight: #{$fw-normal};
+  --pivot-h6-font-weight: #{$fw-light};
+
+  --pivot-body-line-height: #{$lh-7};
+  --pivot-body-letter-spacing: #{$ls-0};
+
+  --pivot-h1-letter-spacing: #{$ls-5};
+  --pivot-h2-letter-spacing: #{$ls-4};
+  --pivot-h3-letter-spacing: #{$ls-3};
+  --pivot-h4-letter-spacing: #{$ls-2};
+  --pivot-h5-letter-spacing: #{$ls-1};
+  --pivot-h6-letter-spacing: #{$ls-0};
+
+  --pivot-body-font-family: #{$font-family-sans-serif};
+  --pivot-heading-font-family: #{$font-family-serif};
+
+  --pivot-appbar-bg-primary: #{$green};
+  --pivot-appbar-bg-secondary: #{$white};
+  --pivot-appbar-color-primary: #{$white};
+  --pivot-appbar-color-secondary: #{$dark};
+  --pivot-appbar-elevation: #{$shadows};
+
+  --pivot-fab-bg-primary: #{$green};
+  --pivot-fab-color-primary: #{$white};
+  --pivot-fab-bg-primary-hover: #{$green-light};
+
+  --pivot-fab-bg-secondary: #{$blue};
+  --pivot-fab-color-secondary: #{$white};
+}

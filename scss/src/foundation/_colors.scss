@@ -1,0 +1,71 @@
+/*=============================================
+=            Foundation - Colors              =
+=============================================*/
+
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+
+
+/*=============================================
+=              Global text colors             =
+=============================================*/
+
+$body-text-color: var(--pivot-body-text-color, $dark) !default;
+$body-bg-color: var(--pivot-body-bg-color, $white) !default;
+
+
+
+/*=============================================
+=                  Buttons                    =
+=============================================*/
+
+$btn-primary-color: var(--pivot-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--pivot-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--pivot-btn-primary-bg-hover, $green-light) !default;
+
+
+
+/*=============================================
+=                  Forms                      =
+=============================================*/
+
+$form-color: var(--pivot-form-color, $dark) !default;
+$form-bg: var(--pivot-form-bg, $white) !default;
+$form-error-color: var(--pivot-form-error-color, $red) !default;
+$form-error-border: var(--pivot-form-error-border, $red) !default;
+$form-border-focus-color: var(--pivot-form-border-focus-color, $green) !default;
+
+
+
+/*=============================================
+=                  App bars                   =
+=============================================*/
+
+$appbar-bg-primary-color: var(--pivot-appbar-bg-primary, $green);
+$appbar-bg-secondary-color: var(--pivot-appbar-bg-secondary, $white);
+
+$appbar-primary-color: var(--pivot-appbar-color-primary, $white);
+$appbar-secondary-color: var(--pivot-appbar-color-secondary, $dark);
+$appbar-elevation: (--pivot-appbar-elevation, $shadows);
+
+$appbar-bg-color-primary: var(--pivot-appbar-bg-color-primary, $green);
+$appbar-color-primary: var(--pivot-appbar-color-primary, $white-dark);
+
+
+
+/*=============================================
+=                     FAB                     =
+=============================================*/
+
+$fab-bg-primary: var(--pivot-fab-bg-primary, $green);
+$fab-color-primary: var(--pivot-fab-color-primary, $white);
+$fab-bg-primary-hover: var(--pivot-fab-bg-primary-hover, $green-light);
+
+$fab-bg-secondary: var(--pivot-fab-bg-secondary, $blue);
+$fab-color-secondary: var(--pivot-fab-color-secondary, $white);
+$fab-bg-secondary-hover: var(--pivot-fab-bg-secondary-hover, $blue-light);
+
+$fab-elevation: var(--pivot-fab-elevation, $shadows);

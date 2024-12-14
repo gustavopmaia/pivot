@@ -1,0 +1,33 @@
+{
+  "name": "@pivot/scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint ./**/*.scss",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "normalize-scss": "^8.0.0"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
+    "prettier": "^3.4.2",
+    "stylelint": "^16.11.0",
+    "stylelint-config-sass-guidelines": "^12.1.0",
+    "stylelint-prettier": "^5.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": [
+      "npm run lint:fix"
+    ]
+  }
+}
